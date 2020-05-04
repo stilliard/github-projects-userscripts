@@ -12,7 +12,7 @@
     'use strict';
 
     var style = document.createElement('style');
-    style.innerHTML = 'div[data-card-assignee="\\[\\"stilliard\\"\\]"] { background-color: #e3f9d4 !important; }';
+    style.innerHTML = 'article[data-card-assignee="\\[\\"stilliard\\"\\]"] { background-color: #e3f9d4 !important; }';
     document.body.appendChild(style);
 
 })();
